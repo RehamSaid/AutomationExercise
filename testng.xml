@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationExercise Suite" verbose="1">
+
+    <!-- Cucumber BDD scenarios (default: mvn test) -->
+    <test name="Cucumber Scenarios">
+        <classes>
+            <class name="runner.CucumberTestRunner"/>
+        </classes>
+    </test>
+
+    <!-- Plain TestNG version of the same scenarios.
+         Uncomment to run it too (or right-click TestRunner in IntelliJ). -->
+    <!--
+    <test name="TestNG Tests">
+        <classes>
+            <class name="runner.TestRunner"/>
+        </classes>
+    </test>
+    -->
+
+</suite>
